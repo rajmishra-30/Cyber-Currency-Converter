@@ -1,2 +1,2 @@
 # Cyber-Currency-Converter
-This is my first repository project with the use of HTML,CSS and JAVASCRIPT
+This is my first git project with the use of HTML,CSS and JAVASCRIPT
