@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: 'Courier New', monospace;
+  background: black;
+  color: #00ffcc;
+  overflow: hidden;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.container {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  top: 10%;
+}
+
+h1 {
+  text-shadow: 0 0 10px #00ffcc;
+  letter-spacing: 2px;
+}
+
+.box {
+  margin: auto;
+  margin-top: 20px;
+  padding: 25px;
+  width: 350px;
+  background: rgba(0,0,0,0.7);
+  border: 1px solid #00ffcc;
+  border-radius: 10px;
+  box-shadow: 0 0 20px #00ffcc;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  background: black;
+  border: 1px solid #00ffcc;
+  color: #00ffcc;
+  margin-bottom: 15px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.select-box {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  width: 40%;
+}
+
+select {
+  width: 100%;
+  background: black;
+  color: #00ffcc;
+  border: 1px solid #00ffcc;
+}
+
+img {
+  width: 30px;
+  height: 20px;
+}
+
+#swap {
+  background: transparent;
+  border: 1px solid #00ffcc;
+  color: #00ffcc;
+  padding: 8px;
+  cursor: pointer;
+}
+
+#convertBtn {
+  margin-top: 15px;
+  width: 100%;
+  padding: 10px;
+  background: black;
+  border: 1px solid #00ffcc;
+  color: #00ffcc;
+  cursor: pointer;
+}
+
+#convertBtn:hover {
+  background: #00ffcc;
+  color: black;
+}
+
+#result {
+  margin-top: 15px;
+  font-size: 18px;
+}
+
+#rate {
+  font-size: 12px;
+  opacity: 0.7;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cyber Currency Converter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<canvas id="matrix"></canvas>
+
+<div class="container">
+  <h1>⛧ CYBER CURRENCY CONVERTER ⛧</h1>
+
+  <div class="box">
+
+    <input type="number" id="amount" value="1" />
+
+    <div class="row">
+
+      <div class="select-box">
+        <img id="fromFlag" />
+        <select id="fromCurrency"></select>
+      </div>
+
+      <button id="swap">⇄</button>
+
+      <div class="select-box">
+        <img id="toFlag" />
+        <select id="toCurrency"></select>
+      </div>
+
+    </div>
+
+    <button id="convertBtn">EXECUTE</button>
+
+    <div id="result">--</div>
+    <div id="rate"></div>
+
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
